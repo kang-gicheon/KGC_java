@@ -15,7 +15,7 @@ public class ConditionalOprationExample {
 			
 			String score = scanner.nextLine();
 				
-			if ( score =="q" || score == "Q" ) {
+			if ( score.equals("q") || score.equals("Q")) {
 				break;
 			}
 			
@@ -46,7 +46,7 @@ public class ConditionalOprationExample {
 			
 			}
 	
-			
+			System.out.println("프로그램이 종료되었습니다.");
 		}
 
 		// char grade = (score > 90) ? 'A' : ( (score > 80) ? 'B' : 'C');
