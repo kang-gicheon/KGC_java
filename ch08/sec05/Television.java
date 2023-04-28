@@ -1,4 +1,4 @@
-package ch08.sec04;
+package ch08.sec05;
 
 public class Television implements RemoteControl {
 	
